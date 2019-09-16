@@ -1,6 +1,6 @@
 # FileUploadProcess
 
-This project user to process 100k records in a csv file less than 30 seconds.
+This project used to process 100k records in a csv file less than 30 seconds.
 
 # Project Structure
 
@@ -39,6 +39,7 @@ This project user to process 100k records in a csv file less than 30 seconds.
             1. loadDataWithRepository - This method used to insert data using seperate repository classes to insert into database. Via                  seperate repositories couldnot obtain the optimal performence so this is not used.
             2. loadDataWithEntityManager - Instead of seperate reposotories entityManager from PersistenceContext is used to insert the                data. Since HIBERNATE BATCH process enabled so we can get optimal performence.
             3. loadDataWithEntityManagerNativeQuery - We can get better performence than entity manager, since native query execution is                not allowed this method not used.
+      13. src/test/java - Contains service classes tests.
         
   ## Module Details RESOURCES      
       1. base.html - Holds the teplate structure of the application. This enables the dynamic routing of the pages.
@@ -69,8 +70,6 @@ This project user to process 100k records in a csv file less than 30 seconds.
 ![Screen 5](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/5.PNG)
 ![Screen 6](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/6.PNG)
 ![Screen 7](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/7.PNG)
-
-# Tests
 
 # End
 Thanks.      
