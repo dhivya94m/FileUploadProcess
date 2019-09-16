@@ -6,8 +6,7 @@ This project user to process 100k records in a csv file less than 30 seconds.
 
 ![Project Structure](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/1.png)
 
-  ## Module Details 
-    ### SRC> JAVA
+  ## Module Details SRC> JAVA
      1. com.org.bchio.config - contains the configurations of java class. ApplicationEventMulticaster and LayoutDialect - Thymeleaf               configurations are available in this module.
      2. com.org.bchio.constants - Application constant value declarations goes here.
      3. com.org.bchio.controller - FileUploadController class holds the below URL paths to access the applications.
@@ -41,5 +40,28 @@ This project user to process 100k records in a csv file less than 30 seconds.
             2. loadDataWithEntityManager - Instead of seperate reposotories entityManager from PersistenceContext is used to insert the                data. Since HIBERNATE BATCH process enabled so we can get optimal performence.
             3. loadDataWithEntityManagerNativeQuery - We can get better performence than entity manager, since native query execution is                not allowed this method not used.
         
-      
+  ## Module Details RESOURCES      
+      1. base.html - Holds the teplate structure of the application. This enables the dynamic routing of the pages.
+      2. index.html - Holds the File upload, Paginated table with file summary info and status.
+    
+# Technologies Used
+  1. Spring boot 2.1.8
+  2. Hibernate
+  3. Thymeleaf
+  4. MySQL
+
+# Setup
+  1. Clone the repository using 
+    git clone https://github.com/dhivya94m/FileUploadProcess.git
+  2. Using maven or some ide download and build the project.
+  3. In application.properties configure the below properties
+      1. file.upload-dir - Configure the location where the uploaded files needs to be stored. 
+          1.eg: file.upload-dir=D:/uploads/ - path must ends with /.
+      2. spring.datasource.url=jdbc:mysql://localhost:3306/bchio
+      3. spring.datasource.username=root
+      4. spring.datasource.password=root
+  4. In logback.xml configure the log file location
+      1. <property name="LOGS" value="D:/logs" />
+# Screenshots
+# End
       
