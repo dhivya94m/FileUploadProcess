@@ -63,12 +63,12 @@ This project user to process 100k records in a csv file less than 30 seconds.
   4. In logback.xml configure the log file location
       1. property name="LOGS" value="D:/logs"
 # Screenshots
-![Screen2](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/2.png)
-![Screen3](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/3.png)
-![Screen4](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/4.png)
-![Screen5](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/5.png)
-![Screen6](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/6.png)
-![Screen7](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/7.png)
+![Screen 2](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/2.PNG)
+![Screen 3](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/3.PNG)
+![Screen 4](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/4.PNG)
+![Screen 5](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/5.PNG)
+![Screen 6](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/6.PNG)
+![Screen 7](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/7.PNG)
 
 # Tests
 
