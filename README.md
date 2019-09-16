@@ -61,7 +61,16 @@ This project user to process 100k records in a csv file less than 30 seconds.
       3. spring.datasource.username=root
       4. spring.datasource.password=root
   4. In logback.xml configure the log file location
-      1. <property name="LOGS" value="D:/logs" />
+      1. property name="LOGS" value="D:/logs"
 # Screenshots
+![Screen2](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/2.png)
+![Screen3](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/3.png)
+![Screen4](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/4.png)
+![Screen5](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/5.png)
+![Screen6](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/6.png)
+![Screen7](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/7.png)
+
+# Tests
+
 # End
-      
+Thanks.      
