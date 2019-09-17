@@ -16,6 +16,7 @@
 	<description>Batch IO operations</description>
 
 	<properties>
+		<maven.test.skip>true</maven.test.skip>
 		<java.version>1.8</java.version>
 		<datasource-proxy.version>1.4.1</datasource-proxy.version>
 	</properties>
@@ -75,6 +76,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<skipTests>true</skipTests>
+					<finalName>BCHIO</finalName>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
