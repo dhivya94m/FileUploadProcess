@@ -72,4 +72,4 @@ This project used to process 100k records in a csv file less than 30 seconds.
 ![Screen 7](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/7.PNG)
 
 # End
-Thanks.      
+Thanks. You are highly appriciated if you reduce the insertion time further using JPA.     
