@@ -57,12 +57,13 @@ This project used to process 100k records in a csv file less than 30 seconds.
   2. Using maven or some ide download and build the project.
   3. In application.properties configure the below properties
       1. file.upload-dir - Configure the location where the uploaded files needs to be stored. 
-          1.eg: file.upload-dir=D:/uploads/ - path must ends with /.
+          1.eg: file.upload-dir=D:/uploads/
       2. spring.datasource.url=jdbc:mysql://localhost:3306/bchio
       3. spring.datasource.username=root
       4. spring.datasource.password=root
   4. In logback.xml configure the log file location
       1. property name="LOGS" value="D:/logs"
+      
 # Screenshots
 ![Screen 2](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/2.PNG)
 ![Screen 3](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/3.PNG)

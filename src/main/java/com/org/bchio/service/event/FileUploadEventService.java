@@ -50,7 +50,6 @@ public class FileUploadEventService {
 	public boolean loadDataWithRepository(FileDetails fd) throws Exception {
 		File inFile = null;
 		boolean status = false;
-		// String line = null;
 		List<Object> dataList = null;
 		List<ValidTransactions> validTransactions = null;
 		List<InvalidTransactions> invalidTransactions = null;

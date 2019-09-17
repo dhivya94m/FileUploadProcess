@@ -7,7 +7,12 @@ public class FileStorageProperties {
 	private String uploadDir;
 
 	public String getUploadDir() {
-		return uploadDir;
+		if (uploadDir != null && (uploadDir.endsWith("/") || uploadDir.endsWith("\\"))) {
+			return uploadDir;
+		} else {
+			return uploadDir + "/";
+		}
+
 	}
 
 	public void setUploadDir(String uploadDir) {
