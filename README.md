@@ -65,11 +65,11 @@ This project used to process 100k records in a csv file less than 30 seconds.
       1. property name="LOGS" value="D:/logs"
  
 # Setup - Docker
-	1. Docker and maven must be installed on the host machine.
+	1. Docker must be installed on the host machine.
 	2. Clone the project from github: git clone https://github.com/dhivya94m/FileUploadProcess.git
 	3. Navigate to the project directory: cd BCHIO
 	4. Execute docker command to up the project: docker-compose up
-	5. Ensure bchio and app-mysql-server containers are us using: docker ps -a
+	5. Ensure bchio and app-mysql-server containers are up using: docker ps -a
 	6. If container is down, go to step 4.
       
 # Screenshots
