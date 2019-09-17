@@ -51,7 +51,7 @@ This project used to process 100k records in a csv file less than 30 seconds.
   3. Thymeleaf
   4. MySQL
 
-# Setup
+# Setup - Manual
   1. Clone the repository using 
     git clone https://github.com/dhivya94m/FileUploadProcess.git
   2. Using maven or some ide download and build the project.
