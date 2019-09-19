@@ -63,6 +63,7 @@ This project used to process 100k records in a csv file less than 30 seconds.
       4. spring.datasource.password=root
   4. In logback.xml configure the log file location
       1. property name="LOGS" value="D:/logs"
+  5. Sample input data of 100k records available in resources>static>sample>sample.zip.
  
 # Setup - Docker
 	1. Docker must be installed on the host machine.
