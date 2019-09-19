@@ -69,9 +69,23 @@ This project used to process 100k records in a csv file less than 30 seconds.
 	1. Docker must be installed on the host machine.
 	2. Clone the project from github: git clone https://github.com/dhivya94m/FileUploadProcess.git
 	3. Navigate to the project directory: cd BCHIO
-	4. Execute docker command to up the project: docker-compose up
+	4. Execute docker command to up the project: docker-compose up or docker-compose up --build
 	5. Ensure bchio and app-mysql-server containers are up using: docker ps -a
 	6. If container is down, go to step 4.
+      
+# Setup - Docker Manual
+	1. docker pull mysql
+	2. docker run --name app-mysql-server -p 3333:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=bchio -e MYSQL_PASSWORD=root -d mysql:5.7 
+	3. docker ps -a
+	4. git clone https://github.com/dhivya94m/FileUploadProcess.git
+	5. cd BCHIO
+	6. docker build . -t bchio
+	7. docker run -p 8086:8086 --name bchio --link app-mysql-server:mysql -d bchio
+	8. docker ps -a
+	9. docker exec -it bchio bash
+      
+# Access Application
+	Open the browser of your choice and enter: http://localhost:8086
       
 # Screenshots
 ![Screen 2](https://github.com/dhivya94m/FileUploadProcess/blob/master/src/main/resources/screens/2.PNG)
